@@ -9,8 +9,10 @@
 
 ## 安装
 
+github地址（自觉给星哟）：https://github.com/luler/weixin_article_spider.git
+
 ~~~
-git clone https://gitee.com/dreamplay/weixin_article_spider.git
+git clone https://github.com/luler/weixin_article_spider.git
 ~~~
 
 ## 配置
@@ -43,8 +45,22 @@ sh spider.sh
 
 ## 注意点
 
-* 该程序不能自动登录微信公众号，需要用户自己登陆自己可以登陆的公众号，获取到响应的配置
+* 该程序不能自动登录微信公众号，需要用户自己登陆自己可以登陆的公众号，获取到相应的配置
 
 * 每次获取到的公众号cookie等信息都是有有效期的，大概几小时吧
 
 * 执行太多次，可能会被微信发现，对接口进行封禁，这个时候不要急，最多等24小时，再次登录公众号获取配置，再次执行就可以了，建议多个公众号做备用
+
+## 相关截图
+
+- 抓取到的数据（部分字段）
+
+![爬取微信公众号文章工具](https://cdn.learnku.com/uploads/images/202103/30/31440/lq6VCpvHit.png!large)
+
+- 微信流控产生（这时候需要更换公众号cookie等信息，或者等待一段时间再重试）
+
+![爬取微信公众号文章工具](https://cdn.learnku.com/uploads/images/202103/30/31440/hnrPn3YdFO.png!large)
+
+## 讨论一下
+
+https://learnku.com/articles/55817
