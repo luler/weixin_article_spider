@@ -10,8 +10,11 @@
 ## 安装
 
 github地址（自觉给星哟）：https://github.com/luler/weixin_article_spider.git
+
+gitee地址（自觉给星哟）：https://gitee.com/dreamplay/weixin_article_spider.git
+
 ~~~
-git clone https://github.com/luler/weixin_article_spider.git
+git clone https://gitee.com/dreamplay/weixin_article_spider.git
 ~~~
 
 ## 配置
@@ -55,7 +58,6 @@ sh spider.sh
 - 登录公众号后获取关键配置
 
 ![爬取微信公众号文章工具](https://cdn.learnku.com/uploads/images/202103/31/31440/io9Q79gLnx.png!large)
-
 
 - 抓取到的数据（部分字段）
 
