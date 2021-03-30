@@ -10,7 +10,6 @@
 ## 安装
 
 github地址（自觉给星哟）：https://github.com/luler/weixin_article_spider.git
-
 ~~~
 git clone https://github.com/luler/weixin_article_spider.git
 ~~~
@@ -52,6 +51,11 @@ sh spider.sh
 * 执行太多次，可能会被微信发现，对接口进行封禁，这个时候不要急，最多等24小时，再次登录公众号获取配置，再次执行就可以了，建议多个公众号做备用
 
 ## 相关截图
+
+- 登录公众号后获取关键配置
+
+![爬取微信公众号文章工具](https://cdn.learnku.com/uploads/images/202103/31/31440/io9Q79gLnx.png!large)
+
 
 - 抓取到的数据（部分字段）
 
