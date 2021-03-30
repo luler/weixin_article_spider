@@ -5,6 +5,6 @@
 return [
     // 指令定义
     'commands' => [
-        \app\common\command\Debug::class,
+        \app\Debug::class,
     ],
 ];

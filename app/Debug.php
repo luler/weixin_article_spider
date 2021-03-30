@@ -1,7 +1,7 @@
 <?php
 declare (strict_types=1);
 
-namespace app\common\command;
+namespace app;
 
 use app\model\Article;
 use app\model\Weixin;
